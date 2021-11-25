@@ -1,0 +1,51 @@
+[
+  {
+    "userName": "krishna",
+    "password": "krishna@1234",
+    "mail": "krishna@gmail.com",
+    "contact": "+91123456789",
+    "name": "Krishna"
+  },
+  {
+    "userName": "dhiraj21k",
+    "password": "dhiraj@1234",
+    "mail": "dhiraj21k@gmail.com",
+    "contact": "+918971536684",
+    "name": "Dhiraj Kumar"
+  },
+  {
+    "userName": "alex",
+    "password": "alex@1234",
+    "mail": "alex@gmail.com",
+    "contact": "+91987654321",
+    "name": "Alex"
+  },
+  {
+    "userName": "nikita",
+    "password": "nikita@1234",
+    "mail": "nikita@gmail.com",
+    "contact": "+917689012345",
+    "name": "Nikita"
+  },
+  {
+    "userName": "althaf",
+    "password": "althaf@1234",
+    "mail": "althaf@gmail.com",
+    "contact": "+916543219876",
+    "name": "Althaf"
+  },
+  {
+    "userName": "pranesh",
+    "password": "pranesh@1234",
+    "mail": "pranesh@gmail.com",
+    "contact": "+919867223451",
+    "name": "Pranesh"
+  },
+  {
+    "userName": "jishnu",
+    "password": "jishnu@1234",
+    "mail": "jishnu@gmail.com",
+    "contact": "+915672129987",
+    "name": "Jishnu"
+  }
+]

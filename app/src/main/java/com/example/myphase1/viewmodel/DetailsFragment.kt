@@ -14,7 +14,7 @@ class DetailsFragment : Fragment(R.layout.fragment_details) {
     private var _binding : FragmentDetailsBinding? = null
     private val binding get() = _binding!!
 
-    private val username: DetailsFragmentArgs by navArgs()
+    private val userdata: DetailsFragmentArgs by navArgs()
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -26,19 +26,21 @@ class DetailsFragment : Fragment(R.layout.fragment_details) {
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        val name: String = username.username
-        val mail: String = username.email
-        val contact: String = username.contact
-        val UName: String = username.name
+
+        val userid: String = userdata.userid
+        val mail: String = userdata.mail
+        val contact: String = userdata.contact
+        val name: String = userdata.name
+
         var nameText = binding.nameText
         var mailText = binding.mailText
         var contactText = binding.contactText
         var userId = binding.userId
 
-        userId.text = name
+        userId.text = userid
         mailText.text = mail
         contactText.text = contact
-        nameText.text = UName
+        nameText.text = name
     }
 
     override fun onDestroy() {

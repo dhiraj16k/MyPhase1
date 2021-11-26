@@ -19,13 +19,13 @@
         android:label="fragment_details"
         tools:layout="@layout/fragment_details" >
         <argument
-            android:name="username"
+            android:name="userid"
             app:argType="string"
-            android:defaultValue="username" />
+            android:defaultValue="userid" />
         <argument
-            android:name="email"
+            android:name="mail"
             app:argType="string"
-            android:defaultValue="email" />
+            android:defaultValue="mail" />
         <argument
             android:name="contact"
             app:argType="string"

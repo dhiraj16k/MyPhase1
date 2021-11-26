@@ -1,51 +1,51 @@
 [
   {
-    "userName": "krishna",
-    "password": "krishna@1234",
-    "mail": "krishna@gmail.com",
-    "contact": "+91123456789",
-    "name": "Krishna"
+    "UserId": "krishna",
+    "Password": "krishna@1234",
+    "Mail": "krishna@gmail.com",
+    "Contact": "+91123456789",
+    "Name": "Krishna"
   },
   {
-    "userName": "dhiraj21k",
-    "password": "dhiraj@1234",
-    "mail": "dhiraj21k@gmail.com",
-    "contact": "+918971536684",
-    "name": "Dhiraj Kumar"
+    "UserId": "dhiraj21k",
+    "Password": "dhiraj@1234",
+    "Mail": "dhiraj21k@gmail.com",
+    "Contact": "+918971536684",
+    "Name": "Dhiraj Kumar"
   },
   {
-    "userName": "alex",
-    "password": "alex@1234",
-    "mail": "alex@gmail.com",
-    "contact": "+91987654321",
-    "name": "Alex"
+    "UserId": "alex",
+    "Password": "alex@1234",
+    "Mail": "alex@gmail.com",
+    "Contact": "+91987654321",
+    "Name": "Alex"
   },
   {
-    "userName": "nikita",
-    "password": "nikita@1234",
-    "mail": "nikita@gmail.com",
-    "contact": "+917689012345",
-    "name": "Nikita"
+    "UserId": "nikita",
+    "Password": "nikita@1234",
+    "Mail": "nikita@gmail.com",
+    "Contact": "+917689012345",
+    "Name": "Nikita"
   },
   {
-    "userName": "althaf",
-    "password": "althaf@1234",
-    "mail": "althaf@gmail.com",
-    "contact": "+916543219876",
-    "name": "Althaf"
+    "UserId": "althaf",
+    "Password": "althaf@1234",
+    "Mail": "althaf@gmail.com",
+    "Contact": "+916543219876",
+    "Name": "Althaf"
   },
   {
-    "userName": "pranesh",
-    "password": "pranesh@1234",
-    "mail": "pranesh@gmail.com",
-    "contact": "+919867223451",
-    "name": "Pranesh"
+    "UserId": "pranesh",
+    "Password": "pranesh@1234",
+    "Mail": "pranesh@gmail.com",
+    "Contact": "+919867223451",
+    "Name": "Pranesh"
   },
   {
-    "userName": "jishnu",
-    "password": "jishnu@1234",
-    "mail": "jishnu@gmail.com",
-    "contact": "+915672129987",
-    "name": "Jishnu"
+    "UserId": "jishnu",
+    "Password": "jishnu@1234",
+    "Mail": "jishnu@gmail.com",
+    "Contact": "+915672129987",
+    "Name": "Jishnu"
   }
 ]

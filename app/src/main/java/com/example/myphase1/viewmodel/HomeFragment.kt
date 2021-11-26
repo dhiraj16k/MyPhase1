@@ -40,25 +40,29 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
 
         binding.loginButton.setOnClickListener{
 
+            var isLogged = true
             for (i in 0 until arrayusers.size)
             {
                 var jsonObj = arrayusers.get(index = i)
-                if (jsonObj.getString("userName") == etName.text.toString() &&
-                    jsonObj.getString("password") == etPassword.text.toString()) {
-                    val contact = jsonObj.getString("contact").toString()
-                    val mail = jsonObj.getString("mail").toString()
-                    val name = jsonObj.getString("name").toString()
+                if (jsonObj.getString("UserId") == etName.text.toString() &&
+                    jsonObj.getString("Password") == etPassword.text.toString()) {
+
+                        isLogged = false
+                    val contact = jsonObj.getString("Contact").toString()
+                    val mail = jsonObj.getString("Mail").toString()
+                    val name = jsonObj.getString("Name").toString()
+
                     findNavController().navigate(
                         HomeFragmentDirections.actionHomeFragmentToDetailsFragment(
                             "Welcome ${etName.text}",
                             "$mail", "$contact", "$name"
                         )
                     )
-                    Toast.makeText(requireContext(), "User Logged In!!", Toast.LENGTH_SHORT)
-                        .show()
                     break
-
                 }
+            }
+            if (isLogged){
+                Toast.makeText(requireContext(),"Please Enter Valid Credentials!!", Toast.LENGTH_SHORT).show()
             }
         }
     }
